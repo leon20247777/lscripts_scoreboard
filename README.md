@@ -25,7 +25,7 @@ A **modern, neon-style scoreboard** for ESX-based FiveM servers, designed to dis
     start lscripts_scoreboard
     ```
 3. Make sure `es_extended` is installed and running.  
-4. Optional: Replace `banner.png` and `logo.png` with your own branding images.  
+4. Optional: Replace `banner.png` with your own branding images.  
 
 ---
 
