@@ -1,6 +1,6 @@
 # LScripts Scoreboard for FiveM
 
-A **modern, neon-style scoreboard** for ESX-based FiveM servers, designed to display player and server information in a clean and professional way. Fully responsive, customizable, and easy to use.
+A **modern, neon-style scoreboard** for ESX-based FiveM servers, designed to display player and server information in a clean and professional way. Fully responsive, customizable, and easy to use. Further publication is not allowed!
 
 ---
 
@@ -61,4 +61,4 @@ https://discord.gg/jfUT9c2AdW
 
 ---
 
-LScripts Scoreboard is designed to give players a **clean, modern interface** for seeing server info, jobs, and factions at a glance – while keeping your HUD lightweight and responsive.
+LScripts Scoreboard is designed to give players a **clean, modern interface** for seeing server info, jobs, and factions at a glance – while keeping your HUD lightweight and responsive. Further publication is not allowed!
