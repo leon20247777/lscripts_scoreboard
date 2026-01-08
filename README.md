@@ -31,15 +31,14 @@ A **modern, neon-style scoreboard** for ESX-based FiveM servers, designed to dis
 
 ## 🕹 Commands
 
-- `/scoreboard` – Toggle scoreboard visibility.  
-- Hold `TAB` – Temporarily open scoreboard.  
+- `/scoreboard` – Toggle scoreboard visibility. 
 
 ---
 
 ## 🎛 Customization
 
 - Modify `style.css` to change colors, fonts, or layout.  
-- Replace `banner.png` and `logo.png` for your server branding.  
+- Replace `banner.png` for your server branding.  
 - Adjust faction names and colors in the NUI files.  
 
 ---
@@ -53,6 +52,12 @@ MIT License – Free to use and modify for your server.
 ## 📸 Preview
 
 ![LScripts Scoreboard Preview](./preview.png)  
+
+---
+
+## Discord - FAFS
+
+`https://discord.gg/jfUT9c2AdW`
 
 ---
 
