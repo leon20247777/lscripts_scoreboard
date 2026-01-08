@@ -57,7 +57,7 @@ MIT License – Free to use and modify for your server.
 
 ## Discord - FAFS
 
-`https://discord.gg/jfUT9c2AdW`
+https://discord.gg/jfUT9c2AdW
 
 ---
 
