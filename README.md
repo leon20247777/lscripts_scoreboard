@@ -10,7 +10,7 @@ A **modern, neon-style scoreboard** for ESX-based FiveM servers, designed to dis
 - **Player Info** – Shows Player ID, Job, and Job Grade in real-time.  
 - **Server Info** – Displays server time, total players online, and faction counts (Police, Ambulance, Firefighter).  
 - **Dynamic Updates** – Automatically updates when players change jobs or server data changes.  
-- **Toggle Scoreboard** – `/scoreboard` command or hold `TAB` to display.  
+- **Toggle Scoreboard** – `/scoreboard` command to display.  
 - **Neon Glow Design** – Modern aesthetic with subtle animation effects.  
 - **Multi-Faction Support** – Tracks multiple state factions with live counts.  
 - **ESX Compatible** – Fully integrated with ESX jobs and player data.  
