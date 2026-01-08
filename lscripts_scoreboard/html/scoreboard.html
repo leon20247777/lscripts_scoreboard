@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="scoreboard.css">
+<title>Scoreboard</title>
+</head>
+<body>
+
+<div id="scoreboard">
+    <!-- Banner-Logo -->
+    <div id="scoreboard-banner">
+        <img src="banner.png" alt="Server Banner">
+    </div>
+
+    <!-- Staatsfraktionen nebeneinander -->
+    <div id="faction-info">
+        <div class="faction">
+            <span>Police:</span> <span id="police">0</span>
+        </div>
+        <div class="faction">
+            <span>Ambulance:</span> <span id="ambulance">0</span>
+        </div>
+        <div class="faction">
+            <span>Firefighter:</span> <span id="firefighter">0</span>
+        </div>
+        <div class="faction">
+            <span>Mechanice:</span> <span id="mechanic">0</span>
+        </div>
+        <div class="faction">
+            <span>Carsalesman:</span> <span id="cardealer">0</span>
+        </div>
+        <div class="faction">
+            <span>Broker:</span> <span id="broker">0</span>
+        </div>
+        <div class="faction">
+            <span>Electrician:</span> <span id="electrician">0</span>
+        </div>
+    </div>
+
+    <!-- Unten: Uhrzeit, ID, eigener Job -->
+    <div id="player-info">
+        <span id="time">00:00</span>
+        &nbsp;|&nbsp; ID: <span id="pid">0</span>
+        &nbsp;|&nbsp; Job: <span id="job">Unemployed</span> <span id="job-grade"></span>
+    </div>
+</div>
+
+<script src="scoreboard.js"></script>
+</body>
+</html>

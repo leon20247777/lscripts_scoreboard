@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Haupt-Scoreboard */
+#scoreboard {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(15,15,15,0.85);
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    min-width: 500px;
+    max-width: 700px; /* optional: maximale Breite */
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    display: none;
+    z-index: 9999;
+    text-align: center;
+}
+
+/* Banner oben */
+#scoreboard-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+#scoreboard-banner img {
+    width: 100%;         /* Füllt die Breite des Scoreboards */
+    height: auto;        /* Höhe passt sich proportional an */
+    max-height: 80px;    /* verhindert zu hohe Banner */
+    object-fit: cover;   /* skaliert ohne Verzerrung */
+}
+
+/* Fraktionen nebeneinander */
+#faction-info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.faction span:first-child {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+/* Spieler-Info unten */
+#player-info {
+    font-size: 13px;
+}
+
+/* Job-Rang */
+#job-grade {
+    margin-left: 5px;
+    font-weight: 400;
+    color: #4facfe;
+}
+
+/* Optional: leichte Animation für Banner Farbverlauf / Neon */
+@keyframes gradientShift {
+    0% { filter: hue-rotate(0deg); }
+    50% { filter: hue-rotate(45deg); }
+    100% { filter: hue-rotate(0deg); }
+}
+
+#scoreboard-banner img {
+    animation: gradientShift 10s linear infinite;
+}
